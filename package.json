@@ -1,14 +1,13 @@
 {
   "type": "module",
-  "name": "refactoring-catalog-template",
+  "name": "split-loop-refactoring",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/kaiosilveira/refactoring-catalog-template.git",
+  "repository": "https://github.com/kaiosilveira/split-loop-refactoring.git",
   "author": "Kaio Silveira <silveira.kaio@icloud.com>",
   "license": "MIT",
   "scripts": {
     "test": "NODE_OPTIONS=--experimental-vm-modules jest /src --passWithNoTests",
-    "test:tooling": "NODE_OPTIONS=--experimental-vm-modules jest /tooling --passWithNoTests",
     "tools:cli": "npx @kaiosilveira/refactoring-catalog-cli"
   },
   "devDependencies": {
