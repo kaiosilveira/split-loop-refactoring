@@ -7,9 +7,5 @@ function totalSalary(people) {
 }
 
 function youngestAge(people) {
-  let result = people[0] ? people[0].age : Infinity;
-  for (const p of people) {
-    if (p.age < result) result = p.age;
-  }
-  return result;
+  return Math.min(...people.map(p => p.age));
 }
